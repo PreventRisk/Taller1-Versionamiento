@@ -9,11 +9,19 @@ public class Post {
     private Date dateCreated;
     private Date lastupdate;
     private boolean isAllowed;
-    
+
+    public Post(String topic, Date dateCreated, Date lastupdate, boolean isAllowed) {
+        this.topic = topic;
+        this.dateCreated = dateCreated;
+        this.lastupdate = lastupdate;
+        this.isAllowed = isAllowed;
+    }
+
+   
     public void comment(){}
     public void rate(){}
     public void share(){}
-
+   
     public String getTopic() {
         return topic;
     }
