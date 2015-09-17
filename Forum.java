@@ -19,6 +19,19 @@ public class Forum {
 	public void setCategory(String category) {
 		this.category = category;
 	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public Date getDateCreated() {
+		return dateCreated;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
 
 
 	public Forum(String n, Date d, String c){
